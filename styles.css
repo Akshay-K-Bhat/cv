@@ -1,0 +1,67 @@
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width:10px;
+  width: 5%;
+  }
+  body{
+    Background-color:#EAF6F6;
+    padding: 10px;
+    border-radius: 50px;
+  }
+  h3{
+    color: #66BFBF;
+    font-family: sans-serif;
+  }
+  th{
+    color: #66BFBF;
+    font-family: sans-serif;
+  }
+.introduction{
+  font-family: cursive;
+}
+.intrdctn_heading{
+  font-family: cursive;
+}
+li{
+  font-family: cursive;
+}
+td{
+  font-family: cursive;
+}
+label{
+  font-family: cursive;
+}
+.submit{
+  font-family: cursive;
+  background-color:#F6C6EA;
+  
+}
+
+  h1 {
+    color:#F76B8A;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Lucida Console", Courier, monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 64px;
+    background: linear-gradient(to right,   #F76B8A 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
